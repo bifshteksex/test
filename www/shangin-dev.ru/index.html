@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт-визитка: Шаньгин Роман">
+
+	<title>Шаньгин Роман</title>
+
+	<link rel="icon" type="image/x-icon" href="/img/Grimstroke_minimap_icon.webp">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/app.js" defer></script>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Веб-разработчик</div>
+						<div class="layers__title">Шаньгин Роман</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(gifs/gif.gif);"></div>
+					<div class="layer layers__front" style="background-image: url(gifs/down.gif);"></div>
+				</div>
+			</header>
+
+
+			<article class="second-article" style="background-image: url(img/game_down.gif);">
+				<main>
+					<div class="card_nav">
+				  	<div class="test" target="_blank">
+						<h2>Навигация</h2>
+							<a href="#bitrix_eto">Телеграм-блог</a><br>
+							<a href="#portfol">Портфолио</a><br>
+							<a href="#stek">Стек</a>
+					</div>
+					  <i></i>
+					  <i></i>
+					  <i></i>
+					  <i></i>
+					</div>
+				  </main>
+			</article>
+
+			<article id="bitrix_eto" class="second-article" style="background-image: url(gifs/fb.gif);margin-bottom: 20px;">
+				<div style="text-align: center;padding-top: 100px;">
+					<h2 style="color:white; font-size: 40px;">Битрикс - это типа какая-то фея из Винкс??</h2>
+					<div style="color:white; font-size: 20px;" >Мой Телеграм-блог о Битриксе и веб-разработке.</div>
+					<a style="background-color: #24a1de;color: white; font-size: 20px;padding-top: 15px;padding-bottom: 15px;padding-right: 15px;" href="https://t.me/bitrix_w"><img src="img/tg.png"
+					style="vertical-align: middle; width: 80px;padding-bottom: 5px;"> Telegram</a>
+					</div>
+			</article>
+
+			<article id="portfol" class="second-article" style="background-image: url(gifs/cosm.gif);margin-bottom: 20px;">
+
+				<dialog id="favDialog" style="width:800px; margin:0 auto;margin-top: 200px;">
+					<form method="dialog">
+					  <div>
+						<a href="https://dias2.irksite.ru" class="card_title"><img src="logos_comp/dias.svg"></a>
+						<div style="font-size: 18px; text-decoration: underline;">Сайт написан с нуля!</div>
+						<div>Подробный список проделанных работ:</div>
+						<ul type="circle">
+							<li>В процессе заполнения..</li>
+						</ul>
+						<button style="color: black;border: 1px solid rgb(0 0 0 / 20%);margin-top: 15px;" class="btn card_btn" value="cancel">Закрыть</button>
+					  </div>
+					</form>
+				  </dialog>
+
+				  <dialog id="favDialog2" style="width:800px; margin:0 auto;margin-top: 200px;">
+					<form method="dialog">
+					  <div>
+						<a href="https://теплыйстан38.рф" class="card_title"><img src="logos_comp/tepliy.gif"></a>
+						<div>Подробный список проделанных работ:</div>
+						<ul type="circle">
+							<li>Общие доработки готового решения;</li>
+							<li>Написание скрипта, который перекрашивает зону участка на карте посёлка в тёмный цвет, когда участок продан;</li>
+						</ul>
+						<button style="color: black;border: 1px solid rgb(0 0 0 / 20%);margin-top: 15px;" class="btn card_btn" value="cancel">Закрыть</button>
+					  </div>
+					</form>
+				  </dialog>
+
+				<div style="text-align: center;padding-top: 100px;">
+					<h2 style="color:white; font-size: 40px;" id="bitrix_eto">Портфолио</h2>
+					<div class="main">
+						<ul class="cards">
+						  <li class="cards_item">
+							<div class="card">
+							  <div onclick="window.open('https://dias2.irksite.ru')" class="card_image"><img src="img/dias.jpg"></div>
+							  <div class="card_content">
+								<a href="https://dias2.irksite.ru" class="card_title">Арт-галерея «Диас»</a>
+								<p class="card_text">Художественная галерея в Иркутске.</p>
+								<button id="updateDetails" class="btn card_btn">Подробнее</button>
+							  </div>
+							</div>
+						  </li>
+						  <li class="cards_item">
+							<div class="card">
+							  <div onclick="window.open('https://теплыйстан38.рф')" class="card_image"><img src="img/tepliy.jpg"></div>
+							  <div class="card_content">
+								<a href="https://теплыйстан38.рф" class="card_title">Посёлок «Тёплый стан»</a>
+								<p class="card_text">Экопоселок возле Иркутска.</p>
+								<button id="updateDetails2" class="btn card_btn">Подробнее</button>
+							  </div>
+							</div>
+						  </li>
+						  <li class="cards_item">
+							<div class="card" onclick="window.open('https://sila.aero')">
+								<div class="card_image"><img src="img/sila.jpg"></div>
+								<div class="card_content">
+								  <a href="https://sila.aero" class="card_title">Авиакомпания «СиЛА»</a>
+								  <p class="card_text">Региональная авиакомпания.</p>
+								  <button class="btn card_btn">Подробнее</button>
+							  </div>
+							</div>
+						  </li>
+						  <li class="cards_item">
+							<div class="card" onclick="window.open('http://new.mirmebely.ru')">
+								<div class="card_image"><img src="img/mir_meb.jpg"></div>
+								<div class="card_content">
+								  <a href="http://new.mirmebely.ru" class="card_title">Новый сайт «Мир мебели»</a>
+								  <p class="card_text">Магазин мебели.</p>
+								  <button class="btn card_btn">Подробнее</button>
+							  </div>
+							</div>
+						  </li>
+						  <li class="cards_item">
+							<div class="card" onclick="window.open('https://mirmebely.ru')">
+								<div class="card_image"><img src="img/mir_meb_star.jpg"></div>
+								<div class="card_content">
+								  <a href="https://mirmebely.ru'" class="card_title">Старый сайт «Мир мебели»</a>
+								  <p class="card_text">Магазин мебели.</p>
+								  <button class="btn card_btn">Подробнее</button>
+							  </div>
+							</div>
+						  </li>
+						  <li class="cards_item">
+							<div class="card" onclick="window.open('https://kamaz38.ru')">
+								<div class="card_image"><img src="img/kamaz.jpg"></div>
+								<div class="card_content">
+								  <a href="https://kamaz38.ru" class="card_title">Техцентр «Камаз»</a>
+								  <p class="card_text">Магазин автозапчастей.</p>
+								  <button class="btn card_btn">Подробнее</button>
+							  </div>
+							</div>
+						  </li>
+						</ul>
+					  </div>
+				</div>
+			</article>
+
+			<article id="stek" class="second-article" style="background-image: url(gifs/ucr.gif);">
+				<div style="padding-top: 100px;">
+					<h2 style="text-align: center;color:white; font-size: 40px;">Стек и уровень знаний</h2>
+
+					<div style="  display: flex;
+					flex-wrap: wrap;
+					justify-content: center;">
+						<div style="margin: 15px;">
+							<div style="color: white;"><img src="logos/php.svg"
+								style="vertical-align: middle; width: 25px;"> PHP</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 80%; opacity: 1;">
+								</div>
+							</div>
+
+							<div style="color: white;"><img src="logos/js.svg"
+								style="vertical-align: middle; width: 20px;"> JavaScript</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 30%; opacity: 1;">
+								</div>
+							</div>
+
+							<div style="color: white;"><img src="logos/go.svg"
+								style="vertical-align: middle; width: 25px;"> GO</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 6%; opacity: 1;">
+								</div>
+							</div>
+
+							<div style="color: white;"><img src="logos/db.svg"
+								style="vertical-align: middle; width: 20px;"> SQL</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 90%; opacity: 1;">
+								</div>
+							</div>
+						</div>
+
+
+						<div style="margin: 15px;">
+							<div style="color: white;"><img src="logos/html.svg"
+								style="vertical-align: middle; width: 20px;"> HTML</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 98%; opacity: 1;">
+								</div>
+							</div>
+
+							<div style="color: white;"><img src="logos/css.svg"
+								style="vertical-align: middle; width: 20px;"> CSS</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 88%; opacity: 1;">
+								</div>
+							</div>
+
+							<div style="color: white;"><img src="logos/sass.svg"
+								style="vertical-align: middle; width: 20px;"> SASS/SCSS/LESS</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 10%; opacity: 1;">
+								</div>
+							</div>
+						</div>
+
+						<div style="margin: 15px;">
+							<div style="color: white;"><img src="logos/bootstrap.svg"
+								style="vertical-align: middle; width: 20px;"> Bootstrap</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 97%; opacity: 1;">
+								</div>
+							</div>
+
+							<div style="color: white;"><img src="logos/jquery-icon.svg"
+								style="vertical-align: middle; width: 20px;"> JQuery</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 45%; opacity: 1;">
+								</div>
+							</div>
+
+							<div style="color: white;"><img src="logos/composer.svg"
+								style="vertical-align: middle; width: 20px;"> Composer</div>
+							<div class="progress">
+								<div class="progress-done" style="width: 60%; opacity: 1;">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div style="  display: flex;
+					flex-wrap: wrap;
+					justify-content: center;">
+						<div style="margin: 15px;">
+							<div style="color: white;"><img src="logos/1c_bitrix_logo.svg"
+								style="vertical-align: middle; width: 20px;"> 1С-Битрикс</div>
+							<div class="progress">
+								<div class="progress-done2" style="width: 85%; opacity: 1;">
+								</div>
+							</div>
+
+							<div style="color: white;"><img src="logos/wordpress-blue.svg"
+								style="vertical-align: middle; width: 20px;"> Wordpress</div>
+							<div class="progress">
+								<div class="progress-done2" style="width: 43%; opacity: 1;">
+								</div>
+							</div>
+
+							<div style="color: white;"><img src="logos/joomla.svg"
+								style="vertical-align: middle; width: 20px;"> Joomla</div>
+							<div class="progress">
+								<div class="progress-done2" style="width: 35%; opacity: 1;">
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</article>
+
+			<h3 class="made_by">Made by Shangin Roman with ♡</h3>
+		</div>
+	</div>
+</body>
+</html>
